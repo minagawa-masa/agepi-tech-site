@@ -94,6 +94,10 @@
             color: #fac42f;
             text-decoration: none;
         }
+        .errata-text {
+            margin: 10px;
+            text-align: left;
+        }
     </style>
 </head>
 <body>
@@ -114,12 +118,33 @@
         <h2>エラッタ情報</h2>
         <section class="errata-list">
             <div class="errata-item">
-                <h3>ゲームタイトル1</h3>
-                <p>エラッタ情報の詳細がここに入ります。</p>
+                <h3>HTTPステータスコード百人一首</h3>
+                <div class="errata-text">
+                    ■101（読み札）<br/>
+                    　誤）プロコトル<br/>
+                    　正）プロトコル<br/>
+                </div>
             </div>
             <div class="errata-item">
-                <h3>ゲームタイトル2</h3>
-                <p>エラッタ情報の詳細がここに入ります。</p>
+                <h3>Linuxコマンドかるた</h3>
+                <div class="errata-text">
+                    ■ln（読み札）<br/>
+                    　誤）-a<br/>
+                    　正）-s<br/>
+                    <br/>
+                        ■su（読み札）<br/>
+                    　-（ハイフンのみ）の説明文<br/>
+                    　誤）環境変数を引き継ぐ<br/>
+                    　正）切り替え後のユーザー環境に変更する<br/>                    
+                </div>
+            </div>
+            <div class="errata-item">
+                <h3>SQLビルダー</h3>
+                <div class="errata-text">
+                    手札のprive < 200は正しくはprice < 200 です。
+この誤字は赤の手札のみです。<br/>
+                    <img src="errata_sql.jpg" width="240">
+                </div>
             </div>
             <!-- 追加のエラッタアイテムもここに -->
         </section>

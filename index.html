@@ -94,6 +94,10 @@
             color: #fac42f;
             text-decoration: none;
         }
+        .errata-text {
+            margin: 10px;
+            text-align: left;
+        }
     </style>
 </head>
 <body>
@@ -123,24 +127,34 @@
         <h2>ゲーム紹介</h2>
         <section class="game-list">
             <div class="game-item">
-                <h3>プログラム言語神経衰弱</h3>
-                <p>説明とか画像とかもろもろ文字文字。</p>
+                <h3>ショートカットキーかるた ver.Windows</h3>
+                <p>お題のショートカットキーを、場にあるキートップの札を組み合わせて取るゲームです。</p>
+                <a href="https://booth.pm/ja/items/6280912" target="_blank">ショートカットキーかるた ver.Windows</a>
+            </div>
+            <div class="game-item">
+                <h3>プログラム言語神経衰弱＋＋</h3>
+                <p>コードから言語種別を特定し、同じ言語をペアにして獲得する神経衰弱です。</p>
+                <a href="https://booth.pm/ja/items/3429314" target="_blank">プログラム言語神経衰弱＋＋</a>
             </div>
             <div class="game-item">
                 <h3>Linuxコマンドかるた</h3>
-                <p>説明とか画像とかもろもろ文字文字。</p>
+                <p>Linuxコマンドをテーマにしたゲームで、ルールはかるたと同じです。</p>
+                <a href="https://booth.pm/ja/items/4255680" target="_blank">Linuxコマンドかるた</a>
             </div>
             <div class="game-item">
                 <h3>SQLビルダー</h3>
-                <p>説明とか画像とかもろもろ文字文字。</p>
+                <p>SQLを題材にしたカードゲーム、SQLビルダーです。</p>
+                <a href="https://booth.pm/ja/items/5225950" target="_blank">SQLビルダー</a>
             </div>
             <div class="game-item">
                 <h3>HTTPステータス言語百人一首</h3>
-                <p>説明とか画像とかもろもろ文字文字。</p>
+                <p>HTTPステータスコードが記載された取り札、読み札で構成された百人一首です。</p>
+                <a href="https://booth.pm/ja/items/2866153" target="_blank">HTTPステータス言語百人一首</a>
             </div>
             <div class="game-item">
-                <h3>ときならべ</h3>
-                <p>説明とか画像とかもろもろ文字文字。</p>
+                <h3>ときならべ IT技術編</h3>
+                <p>IT技術を年順に並べていくゲームです。とても簡単なルールで、誰でも遊べます。</p>
+                <a href="https://booth.pm/ja/items/1321769" target="_blank">ときならべ IT技術編</a>
             </div>
             <!-- 追加のゲームアイテムもここに -->
         </section>
@@ -148,12 +162,33 @@
         <h2>エラッタ情報</h2>
         <section class="errata-list">
             <div class="errata-item">
-                <h3>ゲームタイトル1</h3>
-                <p>エラッタ情報の詳細がここに入ります。</p>
+                <h3>HTTPステータスコード百人一首</h3>
+                <div class="errata-text">
+                    ■101（読み札）<br/>
+                    　誤）プロコトル<br/>
+                    　正）プロトコル<br/>
+                </div>
             </div>
             <div class="errata-item">
-                <h3>ゲームタイトル2</h3>
-                <p>エラッタ情報の詳細がここに入ります。</p>
+                <h3>Linuxコマンドかるた</h3>
+                <div class="errata-text">
+                    ■ln（読み札）<br/>
+                    　誤）-a<br/>
+                    　正）-s<br/>
+                    <br/>
+                        ■su（読み札）<br/>
+                    　-（ハイフンのみ）の説明文<br/>
+                    　誤）環境変数を引き継ぐ<br/>
+                    　正）切り替え後のユーザー環境に変更する<br/>                    
+                </div>
+            </div>
+            <div class="errata-item">
+                <h3>SQLビルダー</h3>
+                <div class="errata-text">
+                    手札のprive < 200は正しくはprice < 200 です。
+この誤字は赤の手札のみです。<br/>
+                    <img src="errata/errata_sql.jpg" width="240">
+                </div>
             </div>
             <!-- 追加のエラッタアイテムもここに -->
         </section>
